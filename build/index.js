@@ -94,8 +94,8 @@ Module['FS_createPath']('/', 'assets', true, true);
         this.requests[this.name] = null;
       },
     };
-      new DataRequest(0, 922, 0, 0).open('GET', '/assets/frag.fs');
-    new DataRequest(922, 1054, 0, 0).open('GET', '/assets/fulltri.vs');
+      new DataRequest(0, 970, 0, 0).open('GET', '/assets/frag.fs');
+    new DataRequest(970, 1102, 0, 0).open('GET', '/assets/fulltri.vs');
     var PACKAGE_PATH;
     if (typeof window === 'object') {
       PACKAGE_PATH = window['encodeURIComponent'](window.location.pathname.toString().substring(0, window.location.pathname.toString().lastIndexOf('/')) + '/');
@@ -105,7 +105,7 @@ Module['FS_createPath']('/', 'assets', true, true);
     }
     var PACKAGE_NAME = 'build/index.data';
     var REMOTE_PACKAGE_NAME = 'index.data';
-    var PACKAGE_UUID = '9c230595-3ed4-4af6-a77b-34bad9c40f25';
+    var PACKAGE_UUID = '6b9fbb96-0be3-4b1d-8e80-b5fee50d174f';
     function processPackageData(arrayBuffer) {
       Module.finishedDataFileDownloads++;
       assert(arrayBuffer, 'Loading data file failed.');
