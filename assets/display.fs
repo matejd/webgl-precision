@@ -14,3 +14,4 @@ void main()
 {
     gl_FragColor = texture2D(sam, gl_FragCoord.xy * invCanvasSize);
 }
+
