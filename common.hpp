@@ -11,7 +11,7 @@ static_assert(sizeof(u8)  == 1, "sizeof u8");
 static_assert(sizeof(u16) == 2, "sizeof u16");
 static_assert(sizeof(u32) == 4, "sizeof u32");
 
-const float PI = 3.141529f;
+const float PI = 3.14159265f;
 
 // Notes:
 // C++11 std::string requires contiguous underlying storage,
