@@ -1,13 +1,13 @@
 WebGL output tests
 ==================
 
-Floating-point precision, rounding and subnormals. See relevant blog post:
+GPU floating-point precision, rounding and subnormals. See relevant blog post:
 * Benchmarking floating-point precision in mobile GPUs [part 1](http://community.arm.com/groups/arm-mali-graphics/blog/2013/05/29/benchmarking-floating-point-precision-in-mobile-gpus),
 [part 2](http://community.arm.com/groups/arm-mali-graphics/blog/2013/06/11/benchmarking-floating-point-precision-in-mobile-gpus--part-ii),
 [part 3](http://community.arm.com/groups/arm-mali-graphics/blog/2013/10/10/benchmarking-floating-point-precision-in-mobile-gpus--part-iii)
 * Also, the original post at [Youi Labs](http://youilabs.com/blog/mobile-gpu-floating-point-accuracy-variances/)
 
-See the demo [online](http://matejd.github.io/webgl-precision/build/).
+See the demo [online](http://matejd.github.io/webgl-precision/build/) (compiled to JavaScript with Emscripten).
 
 A quick summary so you can interpret the results. The fragment
 shader that produced the image can be seen below. It's a combination of the
